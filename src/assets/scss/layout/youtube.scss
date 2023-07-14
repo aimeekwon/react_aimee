@@ -1,121 +1,128 @@
 //youtube__wrap
 .youtube__wrap {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .youtube__inner {
-    height: 500px;
+  height: 500px;
 
-    .youtube__text {
-        h3 {
-            font-size: 50px;
-        }
-
-        p {
-            font-size: 22px;
-            font-weight: 300;
-            margin: 10px 0;
-        }
-
-        a {
-            width: 100px;
-            height: 30px;
-            background-color: var(--button_red);
-            display: inline-block;
-            font-weight: 300;
-            color: #fff;
-            line-height: 30px;
-            text-align: center;
-        }
+  .youtube__text {
+    h3 {
+      font-size: 50px;
+      font-family: "neue700";
     }
 
-    .youtube__item {
-        position: absolute;
-        margin-top: 100px;
-        display: flex;
-
-        >div {
-            width: 400px;
-            margin-right: 20px;
-        }
-
-        .you__play {
-            width: 350px;
-            height: 180px;
-            border: 1px solid var(--color_body);
-            margin-left: 10px;
-            overflow: hidden;
-
-            img {
-                width: 100%;
-            }
-        }
+    p {
+      font-size: 22px;
+      font-weight: 300;
+      margin: 10px 0;
     }
+
+    a {
+      width: 100px;
+      height: 30px;
+      background-color: var(--button_red);
+      display: inline-block;
+      font-weight: 300;
+      color: #fff;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+
+  .youtube__item {
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+
+    > div {
+      width: 400px;
+      margin-right: 20px;
+    }
+
+    .you__play {
+      width: 350px;
+      height: 180px;
+      border: 1px solid var(--color_body);
+      margin-left: 10px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
 
 //youtube page
 //.youtube__page {}
 
 .youtube__slider {
-    display: none;
+  display: none;
 }
 
 .youtube__search {
-    text-align: center;
-    margin: 50px;
+  text-align: center;
 
-    input {
-        border: 1px solid #e8ecf2;
-        font-size: 16px;
-        padding: 10px 20px;
+  input {
+    border: 1px solid #e8ecf2;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    min-width: 300px;
+    margin-right: 10px;
+  }
 
-    }
-
-    button {
-        @include button (#475EE4, #fff)
-    }
+  button {
+    @include button(#f17c9f, #fff);
+    border-radius: 50px;
+  }
 }
 
 .youtube__tag {
+  font-family: "nexon4";
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 20px auto;
     text-align: center;
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 50px;
-        margin-top: 100px;
 
-        li {
-            a {
-                border: 1px solid gray;
-                padding: 10px 20px;
-                margin: 0 10px;
-                color: red;
-                border: 1px solid red;
-            }
-        }
+    li {
+      display: inline-block;
+      border: solid 1px #f17c9f;
+      padding: 10px 30px;
+      margin: 5px;
+      border-radius: 50px;
+
+      a {
+        font-family: "nexon4";
+        color: #f17c9f;
+      }
     }
+  }
 }
 
 .youtube__cont {
-    text-align: center;
+  text-align: center;
 
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 100px;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
 
-        li {
-            width: 24%;
-            margin-bottom: 4%;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            -webkit-line-clamp: 1; /* 라인수 */
-            -webkit-box-orient: vertical;
-            word-wrap: break-word;
-
+    li {
+      width: 24%;
+      margin-bottom: 4%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 1; /* 라인수 */
+      -webkit-box-orient: vertical;
+      word-wrap: break-word;
+      font-family: "nexon4";
     }
-}
+  }
 }

@@ -1,38 +1,37 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = (props) => {
   return (
-<footer id="footer" role="contentinfo" className={props.attr}>
+    <footer id="footer" role="contentinfo" className={props.attr}>
       <div className="footer__inner container">
         <div className="footer__text">
           <h5>aimee</h5>
           <p>
             질문 환영 :파티하는_얼굴: <br />
             궁금한 사항은 메일로 연락주세요!
-            <a href="mailto:aimee00418@gmail.com">
-              aimee00418@gmail.com
-            </a>
+            <Link href="mailto:aimee00418@gmail.com">aimee00418@gmail.com</Link>
           </p>
           <ul className="sns">
             <li>
-              <a href="#">
+              <Link href="#">
                 <span className="ir">페이스북</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link href="#">
                 <span className="ir">인스타</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link href="#">
                 <span className="ir">유투브</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link href="#">
                 <span className="ir">깃</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -41,16 +40,16 @@ const Footer = (props) => {
             <h4>사이트</h4>
             <ul>
               <li>
-                <a href="#">웹표준 사이트</a>
+                <Link href="#">웹표준 사이트</Link>
               </li>
               <li>
-                <a href="#">웹표준 사이트</a>
+                <Link href="#">웹표준 사이트</Link>
               </li>
               <li>
-                <a href="#">웹표준 사이트</a>
+                <Link href="#">웹표준 사이트</Link>
               </li>
               <li>
-                <a href="#">웹표준 사이트</a>
+                <Link href="#">웹표준 사이트</Link>
               </li>
             </ul>
           </div>
@@ -58,22 +57,22 @@ const Footer = (props) => {
             <h4>유형</h4>
             <ul>
               <li>
-                <a href="#">이미지 유형</a>
+                <Link href="#">이미지 유형</Link>
               </li>
               <li>
-                <a href="#">카드 유형</a>
+                <Link href="#">카드 유형</Link>
               </li>
               <li>
-                <a href="#">이미지/텍스트 유형</a>
+                <Link href="#">이미지/텍스트 유형</Link>
               </li>
               <li>
-                <a href="#">배너 유형</a>
+                <Link href="#">배너 유형</Link>
               </li>
               <li>
-                <a href="#">텍스트 유형</a>
+                <Link href="#">텍스트 유형</Link>
               </li>
               <li>
-                <a href="#">푸터 유형</a>
+                <Link href="#">푸터 유형</Link>
               </li>
             </ul>
           </div>
@@ -81,22 +80,22 @@ const Footer = (props) => {
             <h4>스크립트</h4>
             <ul>
               <li>
-                <a href="#">검색 이펙트</a>
+                <Link href="#">검색 이펙트</Link>
               </li>
               <li>
-                <a href="#">퀴즈 이팩트</a>
+                <Link href="#">퀴즈 이팩트</Link>
               </li>
               <li>
-                <a href="#">마우스 이펙트</a>
+                <Link href="#">마우스 이펙트</Link>
               </li>
               <li>
-                <a href="#">슬라이드 이펙트</a>
+                <Link href="#">슬라이드 이펙트</Link>
               </li>
               <li>
-                <a href="#">패럴랙스 이펙트</a>
+                <Link href="#">패럴랙스 이펙트</Link>
               </li>
               <li>
-                <a href="#">게임 이펙트</a>
+                <Link href="#">게임 이펙트</Link>
               </li>
             </ul>
           </div>
@@ -104,19 +103,19 @@ const Footer = (props) => {
             <h4>레퍼런스</h4>
             <ul>
               <li>
-                <a href="#">CSS</a>
+                <Link href="#">CSS</Link>
               </li>
               <li>
-                <a href="#">FONTS</a>
+                <Link href="#">FONTS</Link>
               </li>
               <li>
-                <a href="#">HTML</a>
+                <Link href="#">HTML</Link>
               </li>
               <li>
-                <a href="#">JAVASCRIPT</a>
+                <Link href="#">JAVASCRIPT</Link>
               </li>
               <li>
-                <a href="#">REACT</a>
+                <Link href="#">REACT</Link>
               </li>
             </ul>
           </div>
@@ -126,7 +125,7 @@ const Footer = (props) => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

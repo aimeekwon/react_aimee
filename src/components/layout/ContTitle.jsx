@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const ContTitle = () => {
+const ContTitle = (props) => {
   return (
-    <div>
-      
+    <div className="cont__title">
+      <h2>{props.title}</h2>
     </div>
-  )
-}
+  );
+};
 
-export default ContTitle
+export default ContTitle;

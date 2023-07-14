@@ -1,26 +1,27 @@
 :root {
-    --color_body: #101010;
-    --bg_section: #f6f8fd;
-    --button_blue: #4857ec;
-    --button_red: #ff3344;
-    --button_green: #00c183;
+  --color_body: #191919;
+  --bg_section: #ebeae4;
+  --button_blue: #006cbd;
+  --button_red: #cb392f;
+  --button_green: #00783a;
+  --button_pink: #ffd0de;
+  --color_gray: #ebeae4;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 body,
@@ -50,19 +51,18 @@ input,
 figure,
 figcaption,
 blockquote {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 li,
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 h1,
@@ -71,23 +71,23 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: normal;
-    font-size: 1rem;
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 em,
 address {
-    font-style: normal;
+  font-style: normal;
 }
 img,
 svg,
 video {
-    display: block;
-    height: auto;
-    max-width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 img,
 fieldset,
 button {
-    border: 0;
+  border: 0;
 }
